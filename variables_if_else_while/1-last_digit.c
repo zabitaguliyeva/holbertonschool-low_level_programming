@@ -7,20 +7,20 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
+  int n,lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	n=n%10;
-	if(n>5){
-	  printf("%d and is greater than 5", n);
+	lastd=n%10;
+	if(lastd>5){
+	  printf("Last digit of %d is %d and is greater than 5", n, lastd);
 	    }
-	else if(n==0){
-	  printf("%d and is 0", n);
+	else if(lastd==0){
+	  printf("Last digit of %d is %d and is 0", n,lastd);
 	    }
-	else if(n<6&& n!=0){
-	  printf("%d and is less than 6 and not 0");
+	else if(lastd<6&& lastd!=0){
+	  printf("Last digit of %d is %d and is less than 6 and not 0",n, lastd);
 	}
 	return (0);
 }
