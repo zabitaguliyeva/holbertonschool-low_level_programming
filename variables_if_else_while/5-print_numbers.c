@@ -1,6 +1,6 @@
 /*
  * File: 5-print_numbers.c
- * Auth: Zabita 
+ * Auth: Zabita
  */
 
 #include <stdio.h>
