@@ -1,24 +1,23 @@
 #include "main.h"
 #include <string.h>
 /**
- * _print_rev - a function that finds length of the string
+ * _print_rev - a function that reverses a function
  * @s: input
  * Return: (a)
  */
-void print_rev(char *str)
+void print_rev(char *s)
 {
-int l, i;
-char *begin_ptr, *end_ptr, ch;
-
-l = strlen(str);
-begin_ptr = str;
-end_ptr = str + l - 1;
-for (i = 0; i < (l - 1) / 2; i++)
+int n;
+n = strlen(s);
+while (n != -1)
 {
-ch = *end_ptr;
-*end_ptr = *begin_ptr;
-*begin_ptr = ch;
-begin_ptr++;
-end_ptr--;
+if (*(s + n) == '\0')
+{
+n--;
+continue;
 }
+putchar(*(s + n));
+n--;
+}
+putchar('\n');
 }
