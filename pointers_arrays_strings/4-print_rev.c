@@ -5,14 +5,14 @@
  * @s: input
  * Return: (a)
  */
-void _print_rev(char *s)
+void _print_rev(char *str)
 {
 int l, i;
 char *begin_ptr, *end_ptr, ch;
 
-l = strlen(s);
-begin_ptr = s;
-end_ptr = s + l - 1;
+l = strlen(str);
+begin_ptr = str;
+end_ptr = str + l - 1;
 for (i = 0; i < (l - 1) / 2; i++)
 {
 ch = *end_ptr;
