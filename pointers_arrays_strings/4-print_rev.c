@@ -5,7 +5,7 @@
  * @s: input
  * Return: (a)
  */
-void _print_rev(char *str)
+void print_rev(char *str)
 {
 int l, i;
 char *begin_ptr, *end_ptr, ch;
