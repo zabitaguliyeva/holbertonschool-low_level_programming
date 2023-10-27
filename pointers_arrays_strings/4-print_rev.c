@@ -1,8 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * _print_rev - a function that reverses a function
+ * print_rev - a function that reverses a function
  * @s: input
+ * @n: input
  * Return: (a)
  */
 void print_rev(char *s)
