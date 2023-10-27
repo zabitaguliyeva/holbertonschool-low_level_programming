@@ -3,7 +3,7 @@
 /**
  * print_rev - a function that reverses a function
  * @s: input
- * @n: input
+ * @n: variable
  * Return: (a)
  */
 void print_rev(char *s)
