@@ -11,6 +11,6 @@ int tmp;
 
 tmp = *a;
 *a = *b;
-*b = tpm;
+*b = tmp;
 
 }
