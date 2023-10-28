@@ -1,5 +1,8 @@
+#include <stdio.h>
+#include "main.h"
+#include <string.h>
 /**
- * puts_half - length of string
+ * puts_half - a function that prints half of the string
  * @str: variable
  * Return: integer
  */
