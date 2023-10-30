@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - check the code
+ * function - check the code
  * @n: int
  * @x: int
  * @y: int
@@ -20,6 +20,13 @@ int function(int x, int y)
 	}
 	return (function(x + 1, y));
 }
+
+/**
+ * is_prime_number- check if it is prime or not
+ * @n: integer
+ * Return: Always 0
+ *
+ */
 
 int is_prime_number(int n)
 {
