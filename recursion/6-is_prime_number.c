@@ -2,7 +2,6 @@
 
 /**
  * function - check the code
- * @n: int
  * @x: int
  * @y: int
  * Return: Always 0.
