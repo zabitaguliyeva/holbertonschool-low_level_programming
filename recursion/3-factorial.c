@@ -2,8 +2,8 @@
 /**
  * factorial - A function that calculates factorial
  *
- * @n - integer value
- * Return -fac
+ * @n: integer value
+ * Return: -fac
  */
 int factorial(int n)
 {
