@@ -6,8 +6,7 @@
  * main - a function that prints array
  * @argc: num of the args
  * @argv: an array
- * @sum: sum
- * Return: Always 0
+ * * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
