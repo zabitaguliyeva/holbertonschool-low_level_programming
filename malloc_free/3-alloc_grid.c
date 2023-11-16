@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * aloc_grid - allocates a matrix
+ * alloc_grid - allocates a matrix
  * @width: width
  * @height: height
  *
@@ -10,7 +10,7 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int i, j , **matrix;
+	int i, j, **matrix;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
