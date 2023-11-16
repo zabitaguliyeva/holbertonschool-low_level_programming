@@ -18,7 +18,7 @@ int **alloc_grid(int width, int height)
 
 	for (; i < height; i++)
 	{
-		matrix[i] = calloc(sizeof(int) * width);
+		matrix[i] = calloc(width, sizeof(int));
 		if (matrix[i] == NULL)
 		{
 			while (i >= 0)
