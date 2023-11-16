@@ -1,12 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
+/**
+ * aloc_grid - allocates a matrix
+ * @width: width
+ * @height: height
+ *
+ * Return: int **
+ */
 int **alloc_grid(int width, int height)
 {
-	int i = 0, **matrix;
+	int i, j , **matrix;
 
 	if (width <= 0 || height <= 0)
-	   return (NULL);
+		return (NULL);
 
 	matrix = malloc(sizeof(int *) * height);
 
@@ -16,9 +23,9 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 
-	for (; i < height; i++)
+	for (i = 0; i < height; i++)
 	{
-		matrix[i] = calloc(width, sizeof(int));
+		matrix[i] = malloc(width, sizeof(int));
 		if (matrix[i] == NULL)
 		{
 			while (i >= 0)
@@ -28,6 +35,10 @@ int **alloc_grid(int width, int height)
 			}
 			free(matrix);
 			return (NULL);
+		}
+		for (j = 0; j < width; j++)
+		{
+			matrix[i][j] = 0;
 		}
 	}
 	return (matrix);
