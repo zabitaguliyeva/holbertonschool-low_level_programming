@@ -3,7 +3,7 @@
 #include <stddef.h>
 int **alloc_grid(int width, int height)
 {
-	int i = 0, j = 0, **matrix;
+	int i = 0, **matrix;
 
 	if (width <= 0 || height <= 0)
 	   return (NULL);
