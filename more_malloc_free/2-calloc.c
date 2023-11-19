@@ -1,28 +1,31 @@
-#include "main.h"
-#include <string.h>
+#include "notrebloh.h"
+#include <stdio.h>
 #include <stdlib.h>
+
 /**
- * _calloc - fills memory
- * @nmemb: tr
- * @size: str
- * Return: char
+ * *_calloc - function to allocates memory
+ * @nmemb: unsigned int type
+ * @size: unsigned int type
+ * Return: return pointer to array
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *ar;
-	unsigned int ar_size, i;
+	char *ptr;
+	unsigned int count;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	ar_size = nmemb * size;
-	ar = malloc(ar_size);
-	if (ar == NULL)
-		return (NULL);
-	while (i < ar_size)
+	ptr = malloc(nmemb * size);
+	if (ptr == NULL)
 	{
-		ar[i] = 0;
-		i++;
+		return (NULL);
 	}
-	return (ar);
+	count = 0;
+	while (count < nmemb * size)
+	{
+		ptr[count] = 0;
+		count++;
+	}
+	return (ptr);
 }
 
