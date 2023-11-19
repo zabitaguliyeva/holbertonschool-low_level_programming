@@ -1,26 +1,25 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+
 /**
- * string_concat - check the code
- * @s1 - p
- * @s2 - p
- * @n - num
- * Return: p
+ * string_nconcat - Concatenate two strings using n amount of s2
+ * @s1: First string
+ * @s2: String to add to end of s1
+ * @n: Amount of s2 to add to s1
+ *
+ * Return: pointer to new area in memory, NULL if it fails
  */
- 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *nstr;
+	char *nstr, *empt;
 	unsigned int i, len, j;
 	unsigned int size;
 
 	len = 0;
-	
+	empt = "";
 	if (s1 == NULL)
-		s1 = "";
+		s1 = empt;
 	if (s2 == NULL)
-		s2 = "";
+		s2 = empt;
 	while (s1[len] != '\0')
 		len++;
 	size = (len + n) * sizeof(*nstr);
@@ -28,18 +27,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (nstr == NULL)
 		return (NULL);
 	i = 0;
-	while (i < len && s1[i] != '\0')
+	while (i < size && s1[i] != '\0')
 	{
 		nstr[i] = s1[i];
 		i++;
 	}
 	j = 0;
-	while (i < len+n && s2[j] != '\0')
+	while (i < size && s2[j] != '\0')
 	{
 		nstr[i] = s2[j];
 		i++;
 		j++;
 	}
-
+	nstr[i] = '\0';
 	return (nstr);
 }
+
