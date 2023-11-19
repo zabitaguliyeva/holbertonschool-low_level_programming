@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <main.h>
 /**
  * string_concat - check the code
  * @s1 - p
@@ -11,7 +11,7 @@
  
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *nstr, *empt;
+	char *nstr;
 	unsigned int i, len, j;
 	unsigned int size;
 
