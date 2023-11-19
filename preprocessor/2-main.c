@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	printf(_FILE_);
+	printf(__FILE__);
 	printf("\n");
 	return(0);
 }
