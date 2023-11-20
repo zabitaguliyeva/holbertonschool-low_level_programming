@@ -3,6 +3,7 @@
 
 /**
  * print_dog - to print
+ * @d: var
  */
 void print_dog(struct dog *d)
 {
