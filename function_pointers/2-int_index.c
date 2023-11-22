@@ -8,7 +8,7 @@
  * @size: size
  * @cmp: for checking
  *
- * Description - description
+ * Return: description
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
