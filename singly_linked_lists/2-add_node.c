@@ -21,7 +21,7 @@ int _strlen(const char *s)
   */
 list_t *add_node(list_t **head, const char *str)
 {
-	int i, length;
+	int i, len;
 	char *copy;
 	list_t *new;
 
