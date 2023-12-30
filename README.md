@@ -174,12 +174,11 @@ Username@your-regular-prompt:~$ man ./man_1_simple_shell
 ```
 Project Done in 15 Day
 
-Read More [Here](https://midinfotn401.medium.com/shell-step-by-step-what-happen-when-you-type-ls-l-in-the-shell-83d655712332)
 ## Authors
 * Kanan Mirzazade [arponsarker](https://github.com/arponsarker)
 * Nariman Aliyev [MrNeonn75](https://github.com/MrNeonn75)
 * Nihad Goylerov [dArk10R4](https://github.com/dArk10R4)
 
 <p align="center">
-  <img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
-</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtL_ToHLEo_BWFxD-yf32Ux3zfsH_NPc8Qw&usqp=CAU" width="450" height="350">
+<h1> Command interpreter - Simple Shell poject</h1></p>
