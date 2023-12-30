@@ -181,6 +181,6 @@ Project Done in 15 Day
 * Nariman Aliyev [MrNeonn75](https://github.com/MrNeonn75)
 * Nihad Goylerov [dArk10R4](https://github.com/dArk10R4)
 
-<p align="center">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLtL_ToHLEo_BWFxD-yf32Ux3zfsH_NPc8Qw&usqp=CAU" width="450" height="350">
-<h1> Command interpreter - Simple Shell poject</h1></p>
+
+
+
