@@ -5,6 +5,8 @@ This repository is a [Holberton School](https://www.holbertonschool.com/) Projec
 
 <p align="center">
 <img src="https://apply.holbertonschool.com/holberton-logo.png" width="750" height="300">
+
+
 The goal in this project was to make us understand how a shell works. To single out some items: what is the *environment*, the difference between *functions* and *system calls*, how to create *processes* using `execve`...  
 
 ## Usage 
